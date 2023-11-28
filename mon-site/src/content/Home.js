@@ -28,7 +28,9 @@ const Home = () => {
         </h3>
       </div>
       <div className="container3">
-        <h1>test</h1>
+        <div className="Project"> Project 1 </div>
+        <div className="Project"> Project 2 </div>
+        <div className="Project"> Project 3 </div>
       </div>
     </div>
   );

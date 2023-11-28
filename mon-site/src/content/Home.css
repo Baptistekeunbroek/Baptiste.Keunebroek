@@ -6,7 +6,13 @@
     width: 100%;
     height: 100%;
     margin-left: 8vh;
-    font-size: 5vh;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
 }
 
 .WelcomeRight{
@@ -36,6 +42,7 @@
     height: 4vh;
     border: none;
     margin-top: 1vh;
+    font-size: small;
 }
 
 .buttonWelcome:hover{
@@ -94,13 +101,10 @@ p{
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    
-  
   }
 
   .movingText{
     animation: carouselAnimation 20s linear infinite;
-
   }
   
   
@@ -108,5 +112,20 @@ p{
     background-color: #F7EEB5;
     height: 80vh;
     width: 100%;
-  
+    display: flex;
+    justify-content: space-around
+    ;
+  }
+
+  .Project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    margin-top: 5vh;
+    height: 50%;
+    width: 30%;
+    border-radius: 4vh;
+    
+
   }
