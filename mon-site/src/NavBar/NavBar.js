@@ -9,13 +9,18 @@ const NavBar = () => {
           <div className="MyName">Baptiste Keunebroek</div>
 
           <div className="Links">
-            <NavLink style={{ textDecoration: "none", color: "black" }} to="/">
+            <NavLink
+              id="home"
+              style={{ textDecoration: "none", color: "black" }}
+              to="/"
+            >
               HOME
             </NavLink>
           </div>
 
           <div className="Links2">
             <NavLink
+              id="link"
               style={{ textDecoration: "none", color: "black" }}
               to="/link"
             >

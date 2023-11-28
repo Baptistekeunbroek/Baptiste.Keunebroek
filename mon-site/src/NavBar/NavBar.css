@@ -38,6 +38,8 @@
     font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 2vh;
+    height: 100%;
+    align-items: center;
 }
 .Links2{
     display: flex;
@@ -45,4 +47,22 @@
     font-family: 'Roboto', sans-serif;
     color: black;
     margin-left: 2vh;
+    height: 100%;
+    align-items: center;
+}
+
+.Links:hover{
+    color: #85A968;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #d8cf91;
+    border-radius: 2vh;
+}
+
+.Links2:hover{
+    color: #85A968;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #d8cf91;
+    border-radius: 2vh;
 }
