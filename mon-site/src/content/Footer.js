@@ -16,7 +16,7 @@ import { MDBIcon } from "mdbreact";
 
 const Footer = () => {
   return (
-    <MDBFooter>
+    <MDBFooter className="MDBFooter">
       <div className="Footer">
         <section className="footer_section">
           <div className="">

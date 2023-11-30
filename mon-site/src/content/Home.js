@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Home.css";
 
 const Home = () => {
@@ -27,10 +28,14 @@ const Home = () => {
           MySQL - UML
         </h3>
       </div>
-      <div className="container3">
-        <div className="Project"> Project 1 </div>
-        <div className="Project"> Project 2 </div>
-        <div className="Project"> Project 3 </div>
+      <div className="bottom">
+        <h1 className="project-title">
+          Click below to discover more about my projects
+        </h1>
+        <div className="container3">
+          <NavLink to="/Projects" className="ProjectUNO"></NavLink>
+          <NavLink to="/Projects" className="ProjectBLINDTEST"></NavLink>
+        </div>
       </div>
     </div>
   );

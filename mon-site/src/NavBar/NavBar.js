@@ -18,7 +18,17 @@ const NavBar = () => {
             </NavLink>
           </div>
 
-          <div className="Links2">
+          <div className="Links">
+            <NavLink
+              id="link"
+              style={{ textDecoration: "none", color: "black" }}
+              to="/projects"
+            >
+              PROJECTS
+            </NavLink>
+          </div>
+
+          <div className="Links">
             <NavLink
               id="link"
               style={{ textDecoration: "none", color: "black" }}
