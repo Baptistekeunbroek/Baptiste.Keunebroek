@@ -6,17 +6,18 @@
     width: 100%;
     height: 100%;
     margin-left: 8vh;
+    color: white;
 }
 
 h1{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .WelcomeRight{
-    border-radius: 6vh;
+    border-radius: 2vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +86,7 @@ p{
   }
 
 .container1{
-    background-color: #85A968;
+    background-color: #334A35;
     height: 80vh;
     display: flex;
     flex-direction: row;
@@ -177,8 +178,4 @@ p{
 .bottom{
   background-color: #F7EEB5;
 
-}
-
-.test{
-  width: 100%;
 }

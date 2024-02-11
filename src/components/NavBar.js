@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className="Links">
           <NavLink
             id="link"
-            style={{ textDecoration: "none", color: "black", fontSize: 25 }}
+            style={{ textDecoration: "none", color: "white", fontSize: 25 }}
             to="/"
           >
             Baptiste Keunebroek
@@ -18,7 +18,7 @@ const NavBar = () => {
           <div className="Links2">
             <NavLink
               id="link"
-              style={{ textDecoration: "none", color: "black", fontSize: 30 }}
+              style={{ textDecoration: "none", color: "white", fontSize: 30 }}
               to="/projects"
             >
               <i className="fas fa-folder-open"></i>
@@ -28,7 +28,7 @@ const NavBar = () => {
           <div className="Links2">
             <NavLink
               id="link"
-              style={{ textDecoration: "none", color: "black", fontSize: 30 }}
+              style={{ textDecoration: "none", color: "white", fontSize: 30 }}
               to="/link"
             >
               <i className="fas fa-link"></i>

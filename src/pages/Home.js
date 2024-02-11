@@ -7,9 +7,8 @@ const Home = () => {
     <div>
       <div className="container1">
         <div className="Welcome">
-          <h1>Welcome </h1>
-
-          <h1>To my Web Site</h1>
+          <h1>Welcome To my Web Site</h1>
+          <br />
 
           <p> I'm a French student in Software Engineering !</p>
           <p>I Like working on web and app development.</p>

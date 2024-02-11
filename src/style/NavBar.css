@@ -6,7 +6,7 @@
 .Main_Container {
     display: flex;
     flex-direction: row;
-    background-color: #F7EEB5;
+    background-color: #334A35;
     height: 6vh;
     width: 100%;
 
@@ -21,8 +21,7 @@
 .MyName {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: black;
-    font-weight: bold;
+    color: white;
     display: flex;
     justify-content: flex-start;
     margin-left: 4vh;
@@ -32,8 +31,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: black;
+    color: white;
     height: 100%;
     width: 25%;
     align-items: center;
@@ -41,26 +39,22 @@
 .Links2{
     display: flex;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    color: black;
+    color: white;
     margin-right: 5vh;
     height: 100%;
     align-items: center;
-
 }
 
 
 .Links:hover{
-    color: #85A968;
     font-weight: bold;
     cursor: pointer;
-    background-color: #d8cf91;
+    background-color: #4d664f;
 }
 
 .Links2:hover{
-    color: #85A968;
     font-weight: bold;
     cursor: pointer;
-    background-color: #d8cf91;
+    background-color: #4d664f;
 }
 
