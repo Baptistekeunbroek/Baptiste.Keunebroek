@@ -18,14 +18,6 @@
     justify-content: flex-end;
 }
 
-.MyName {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: white;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 4vh;
-}
 
 .Links{
     display: flex;
@@ -35,6 +27,7 @@
     height: 100%;
     width: 25%;
     align-items: center;
+    font-family: "Abril Fatface";
 }
 .Links2{
     display: flex;
@@ -47,13 +40,11 @@
 
 
 .Links:hover{
-    font-weight: bold;
     cursor: pointer;
     background-color: #4d664f;
 }
 
 .Links2:hover{
-    font-weight: bold;
     cursor: pointer;
     background-color: #4d664f;
 }

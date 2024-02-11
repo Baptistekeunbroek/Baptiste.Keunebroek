@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 import Projects from "./pages/Projects";
 
 function App() {
@@ -14,8 +14,6 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projects" element={<Projects />} />
         </Routes>
-
-        <Footer />
       </Router>
     </div>
   );

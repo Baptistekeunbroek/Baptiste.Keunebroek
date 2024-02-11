@@ -64,3 +64,116 @@
     justify-content: center;
     background-color: #F7EEB5
 }
+
+
+@keyframes carouselAnimation {
+    0% {
+      transform: translateX(-200%);
+    }
+    25% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(50%);
+    }
+    55% {
+        transform: translateX(70%);
+      }
+    60% {
+        transform: translateX(90%);
+      }
+    65% {
+      transform: translateX(110%);
+    }
+    100% {
+      transform: translateX(200%);
+    }
+  }
+
+
+
+.container2{
+    background-color: #e2d3ba;
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .movingText{
+    animation: carouselAnimation 20s linear infinite;
+  }
+
+  .project-title
+  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: #F6EEE0;
+  }
+  
+  
+  .container3{
+    background-color: #F6EEE0;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around
+    ;
+  }
+
+  .ProjectUNO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/Uno-logo.png");
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    margin-top: 5vh;
+    height: 50%;
+    width: 30%;
+    border-radius: 4vh;
+  }
+
+  .ProjectUNO:hover{
+    cursor: pointer;
+    opacity: 0.4;
+    width: 35%;
+    height: 55%;
+    
+}
+
+  .ProjectBLINDTEST{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/blindtest_logo.jpeg");
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    margin-top: 5vh;
+    height: 50%;
+    width: 30%;
+    border-radius: 4vh;
+    
+
+  }
+
+  .ProjectBLINDTEST:hover{
+    cursor: pointer;
+    opacity: 0.4;
+    width: 35%;
+    height: 55%;
+    
+}
+
+.bottom{
+  background-color: #F6EEE0;
+
+}

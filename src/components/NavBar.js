@@ -18,20 +18,20 @@ const NavBar = () => {
           <div className="Links2">
             <NavLink
               id="link"
-              style={{ textDecoration: "none", color: "white", fontSize: 30 }}
+              style={{ textDecoration: "none", color: "white", fontSize: 20 }}
               to="/projects"
             >
-              <i className="fas fa-folder-open"></i>
+              About Me
             </NavLink>
           </div>
 
           <div className="Links2">
             <NavLink
               id="link"
-              style={{ textDecoration: "none", color: "white", fontSize: 30 }}
+              style={{ textDecoration: "none", color: "white", fontSize: 20 }}
               to="/link"
             >
-              <i className="fas fa-link"></i>
+              Contact
             </NavLink>
           </div>
         </div>
