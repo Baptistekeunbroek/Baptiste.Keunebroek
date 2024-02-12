@@ -11,7 +11,8 @@
   left: 15%;
   top: 15%;
   z-index: 2;
-  width: 35vw;
+  width: 25vw;
+  text-align: justify;
   font-size:medium;
   font-family: "Josefin Sans";
 }
@@ -104,38 +105,27 @@
   background-color: black;
 }
 
-
-
-@media screen and (max-width: 1000px) {
-
-  .positionedText {
-    display: none;
+@media screen and (max-width: 768px) {
+  .HomePage {
+    height: auto; /* Adjust height for smaller screens */
   }
 
   #imagecontainer {
-    width: 100%;
-    height: 100%;
-    background-position:bottom;
-
+    width: 100%; /* Make image container full width on small screens */
+    height: 50vh; /* Adjust height for smaller screens */
+    position: static; /* Reset position */
+    margin-right: 10%; /* Adjust margin */
   }
 
-  .container1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .positionedText {
+    font-size: 5vw; /* Adjust font size for smaller screens */
+    left: 5%; /* Adjust left position */
+    top: 10%; /* Adjust top position */
   }
 
   .Welcome {
-    margin-left: 0;
-  }
-
-  .WelcomeRight {
-    margin-right: 0;
-  }
-
-  .buttonWelcome {
-   width: auto;
-   padding: 10px;
+    position: static; /* Reset position */
+    text-align: justify; /* Center text */
+    margin: 20px; /* Add margin */
   }
 }

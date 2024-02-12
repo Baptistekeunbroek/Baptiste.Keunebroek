@@ -13,11 +13,11 @@ const Home = () => {
       </div>
       <div className="homeBottomContainer">
         <div className="Welcome">
+          <p>Welcome To my Web Site.</p>
           <p>
-            Welcome To my Web Site. I'm a French developer full stack ! I like
-            working on web and app development. Welcome To my Web Site. I'm a
-            French developer full stack ! I like working on web and app
-            development.
+            I'm a French developer full stack. I like working on web and app
+            development. I am passionate about building products with
+            best-in-class user experience.
           </p>
         </div>
       </div>

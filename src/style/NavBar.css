@@ -21,17 +21,16 @@
 .Links{
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
     color: white;
     height: 100%;
-    width: 25%;
+    width: 30%;
     align-items: center;
     font-family: "Abril Fatface";
 }
 
 .Links2{
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Abril Fatface";
     color: white;
     margin-right: 5vh;
     height: 100%;
@@ -49,13 +48,6 @@
     background-color: #4d664f;
 }
 
-@media screen and (max-width: 768px) {
-    .Links{
-        font-size: 10;
-        width: auto;
-    }
-}
-
 
 .buttonWelcome {
     background-color: #FAB51A;
@@ -64,8 +56,30 @@
     width: 6vw;
     height: 4vh;
     border: none;
+    font-family: "Abril Fatface";
+
   }
   
   .buttonWelcome:hover {
     cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Main_Container, .Main_elements {
+      flex-direction: row;
+    }
+  
+    .Links, .Links2 {
+      width: 100%;
+      margin-bottom: 10px;
+      font-size: 10px;
+    }
+  
+    .buttonWelcome {
+      width: 100%;
+      margin: 0 auto; 
+      margin-bottom: 10px;
+      font-size: 10px; 
+      padding: 3px; 
+    }
   }
