@@ -2,12 +2,21 @@
     height: 100%;
 }
 
-.container_about {
+.container_Top_about {
     background-color: #eddbb9;
-    height: 94vh;
+    height: 47vh;
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .container_Bottom_about{
+    background-color: #334A35;
+    height: 47vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
   }
 
 .container_presentation h1{
@@ -32,3 +41,67 @@
     font-family: "Abril Fatface";
 
 }
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAB51A;
+    width: 25%;
+    height: 100%;
+    position: relative;
+    bottom: 35vh;
+    left: 95vh;
+    justify-content: space-evenly;
+}
+
+.experience h1{
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 100%;
+    color: white;
+}
+
+.education h1{
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    margin-left: 20px;
+    color: #FAB51A;
+}
+
+.experience ul, .education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience li, .education li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.education li:before {
+    content: "\2605"; 
+    color: #FAB51A;
+    margin-right: 10px;
+}
+
+.experience li:before{
+    content: "\2605"; 
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.odlaMer{
+    text-align: justify;
+margin-left: 1vw;
+margin-right: 1vw;
+}
+
