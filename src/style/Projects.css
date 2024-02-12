@@ -1,8 +1,7 @@
 .projects_container{
     display: flex;
     flex-direction: column;
-    margin-top: 5vh;
-    height: 100vh;
+    height: 94vh;
     width: 100%;
 }
 
@@ -10,59 +9,62 @@
 .first_project{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-top: 5vh;
     height: 100%;
-    margin-left: 20vw;
-    margin-right: 20vw
+
+}
+
+.second_project{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 100%;
 }
 
 .Project_UNO{
     display: flex;
-    border-radius: 3vh;
-    height: 50%;
-    width: 40%;
+    height: 100%;
+    width: 30%;
     background-color: red;
     background-image: url("../assets/Uno-logo.png");
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
+    margin-left: 5vh;
 }
 
 .Project_UNO:hover{
     cursor: pointer;
     opacity: 0.4;
-    width: 45%;
-    height: 55%;
     
 }
 
 .Project_BlindTest{
     display: flex;
-    border-radius: 3vh;
-    height: 50%;
-    width: 40%;
+    height: 100%;
+    width: 30%;
     background-color: red;
     background-image: url("../assets/blindtest_logo.jpeg");
     background-size: cover;
     background-position-y: center;
     background-position-x: center;
+    margin-right: 5vh;
+
 }
 
 .Project_BlindTest:hover{
     cursor: pointer;
     opacity: 0.4;
-    width: 45%;
-    height: 55%;
-    
 }
 
 .project_text{
     display: flex;
-    border-radius: 3vh;
-    height: 50%;
-    width: 40%;
-    justify-content: center;
-    background-color: #F7EEB5
+    flex-direction: column;
+    align-items: center;
+    height: 70%;
+    width: 30%;
+    background-color: #FAB51A;
 }
 
 
@@ -176,4 +178,43 @@
 .bottom{
   background-color: #F6EEE0;
 
+}
+
+
+
+.positionedTextProjects{
+  position: absolute;
+font-size: 8vw; 
+font-family: "Abril Fatface";
+color: transparent;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #FAB51A;
+left: 20%;
+transform: translateX(50%);
+z-index: 0;
+top: 30%;
+}
+
+.positionedTextProjects:nth-child(3) {
+  top: 40%;
+  z-index: 0;
+  font-family: "Abril Fatface";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FAB51A;
+  text-shadow: none;
+  left: 20%;
+
+  
+}
+
+.positionedTextProjects:nth-child(4) {
+  top: 50%;
+  z-index: 0;
+  font-family: "Abril Fatface";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FAB51A;
+  text-shadow: none;
+  left: 20%;
 }

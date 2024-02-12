@@ -21,7 +21,7 @@ const NavBar = () => {
               style={{ textDecoration: "none", color: "white", fontSize: 20 }}
               to="/aboutme"
             >
-              About Me
+              ABOUT ME
             </NavLink>
           </div>
 
@@ -31,14 +31,14 @@ const NavBar = () => {
               style={{ textDecoration: "none", color: "white", fontSize: 20 }}
               to="/projects"
             >
-              My Projects
+              MY PROJECTS
             </NavLink>
           </div>
 
           <div className="Links2">
             <a href="mailto:baptiste.keunebroek@gmail.com">
               <button type="button" className="buttonWelcome">
-                Contact Me
+                CONTACT
               </button>
             </a>
           </div>

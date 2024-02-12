@@ -22,7 +22,7 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
-      <div className="container_Bottom_about">
+      <div className="container_Middle_about">
         <div className="experience">
           <h1> Experience</h1>
           <ul className="odlaMer">

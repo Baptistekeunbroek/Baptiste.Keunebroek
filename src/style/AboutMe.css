@@ -10,13 +10,15 @@
     align-items: center;
   }
 
-  .container_Bottom_about{
+  .container_Middle_about{
     background-color: #334A35;
     height: 47vh;
     display: flex;
     flex-direction: row;
 
   }
+
+
 
 .container_presentation h1{
     color: black;
@@ -104,13 +106,13 @@
 }
 
 .education li:before {
-    content: "\2605"; 
+    content: "\2726"; 
     color: #FAB51A;
     margin-right: 10px;
 }
 
 .experience li:before{
-    content: "\2605"; 
+    content: "\2726"; 
     color: #ffffff;
     margin-right: 10px;
 }
