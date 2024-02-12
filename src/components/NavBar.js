@@ -19,7 +19,7 @@ const NavBar = () => {
             <NavLink
               id="link"
               style={{ textDecoration: "none", color: "white", fontSize: 20 }}
-              to="/projects"
+              to="/aboutme"
             >
               About Me
             </NavLink>
@@ -29,10 +29,18 @@ const NavBar = () => {
             <NavLink
               id="link"
               style={{ textDecoration: "none", color: "white", fontSize: 20 }}
-              to="/link"
+              to="/projects"
             >
-              Contact
+              My Projects
             </NavLink>
+          </div>
+
+          <div className="Links2">
+            <a href="mailto:baptiste.keunebroek@gmail.com">
+              <button type="button" className="buttonWelcome">
+                Contact Me
+              </button>
+            </a>
           </div>
         </div>
       </div>

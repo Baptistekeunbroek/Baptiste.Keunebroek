@@ -4,27 +4,23 @@ import "../style/Home.css";
 const Home = () => {
   return (
     <div className="HomePage">
-      <div className="container1">
-        <div className="Welcome">
-          <h1>Welcome To my Web Site</h1>
-          <br />
-
-          <p> I'm a French student in Software Engineering !</p>
-          <p>I Like working on web and app development.</p>
-
-          <a href="mailto:baptiste.keunebroek@gmail.com">
-            <button type="button" className="buttonWelcome">
-              Contact Me
-            </button>
-          </a>
-        </div>
+      <div className="homeTopContainer">
         <div id="imagecontainer" className="WelcomeRight"></div>
-        <div className="positionedText">Web Designer</div>
-        <div className="positionedText">Web Designer</div>
-        <div className="positionedText">Web Designer</div>
-        <div className="positionedText">Web Designer</div>
+        <div className="positionedText">Web Developer</div>
+        <div className="positionedText">Web Developer</div>
+        <div className="positionedText">Web Developer</div>
+        <div className="positionedText">Web Developer</div>
       </div>
-      <div className="homeBottom">test</div>
+      <div className="homeBottomContainer">
+        <div className="Welcome">
+          <p>
+            Welcome To my Web Site. I'm a French developer full stack ! I like
+            working on web and app development. Welcome To my Web Site. I'm a
+            French developer full stack ! I like working on web and app
+            development.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

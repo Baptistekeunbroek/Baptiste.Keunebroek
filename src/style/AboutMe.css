@@ -1,0 +1,28 @@
+.aboutme{
+    height: 100%;
+}
+
+.container_about {
+    background-color: #F6EEE0;
+    height: 94vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.container_presentation h1{
+    color: black;
+    font-size: 50px;
+}
+
+.container_presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    margin-left: 5vw;
+    text-align: justify;
+    
+}

@@ -1,121 +1,141 @@
-
 .HomePage{
-  height: 100%;
+  height: 94vh;
 }
 
 .Welcome {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: 100%;
-  margin-left: 8vh;
   color: white;
   position: relative;
-}
-
-h1 {
-  color: white;
-  font-weight: bold;
-  font-family: "Abril Fatface";
+  left: 15%;
+  top: 15%;
+  z-index: 2;
+  width: 35vw;
+  font-size:medium;
+  font-family: "Josefin Sans";
 }
 
 .WelcomeRight {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  height: 80%;
-  margin-right: 50vh;
-  font-size: 5vh;
   position: relative;
+  margin-left: 5vh;
 }
 
 #imagecontainer {
   background: url('../assets/IMG_4905.jpeg');
   background-size: cover;
-  background-position-y: bottom;
-  background-position-x: top;
+  background-position: bottom center;
   z-index: 1;
-}
-
-.buttonWelcome {
-  background-color: black;
-  color: white;
-  border-radius: 1.8vh;
-  width: 6vw;
-  height: 4vh;
-  border: none;
-  margin-top: 1vh;
-  font-size: small;
-}
-
-.buttonWelcome:hover {
-  background-color: gray;
-  color: black;
-  border-radius: 1.8vh;
-  width: 6vw;
-  height: 4vh;
-  border: none;
-  margin-top: 1vh;
-  cursor: pointer;
-}
-
-p {
-  font-size: 3vh;
+  height: 70vh;
+  width: 40vw;
+  position: relative;
+  top: 20%;
+  left: 20%;
 }
 
 .positionedText {
   position: absolute;
-  font-size: 4vw; /* Adjust font size relative to viewport width */
+  font-size: 8vw; 
   font-family: "Abril Fatface";
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  right: 23%; /* Position from the right */
+  left: 15%;
   transform: translateX(50%);
   z-index: 1;
   top: 15%;
 }
 
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-  .positionedText {
-    font-size: 6vw; /* Adjust font size for smaller screens */
-    left: 50%; /* Center horizontally on smaller screens */
-    transform: translateX(-50%);
-    right: auto; /* Reset right positioning */
-  }
-}
 
-
-.positionedText:nth-child(6) {
-  top: 25%;
-  z-index: 0;
-  font-family: "Londrina Outline";
-}
 
 .positionedText:nth-child(4) {
-  top: 35%;
+  top: 30%;
   z-index: 0;
-  font-family: "Londrina Outline";
+  font-family: "Abril Fatface";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: none;
+  left: 15%;
+
+  
 }
 
 .positionedText:nth-child(3) {
   top: 45%;
   z-index: 0;
-  font-family: "Londrina Outline";
+  font-family: "Abril Fatface";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: none;
+  left: 15%;
 }
 
-.container1 {
+.positionedText:nth-child(2) {
+  top: 60%;
+  z-index: 0;
+  font-family: "Abril Fatface";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-shadow: none;
+  left: 15%;
+}
+
+.homeTopContainer {
   background-color: #334a35;
-  height: 80vh;
+  height: 74vh;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.homeBottomContainer {
+  background-color: #000000;
+  height: 20vh;
+  
   align-items: center;
 }
 
 .homeBottom{
   height: 100%;
   background-color: black;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  .positionedText {
+    display: none;
+  }
+
+  #imagecontainer {
+    width: 100%;
+    height: 100%;
+    background-position:bottom;
+
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Welcome {
+    margin-left: 0;
+  }
+
+  .WelcomeRight {
+    margin-right: 0;
+  }
+
+  .buttonWelcome {
+   width: auto;
+   padding: 10px;
+  }
 }

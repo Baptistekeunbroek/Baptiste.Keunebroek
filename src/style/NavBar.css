@@ -18,7 +18,6 @@
     justify-content: flex-end;
 }
 
-
 .Links{
     display: flex;
     justify-content: center;
@@ -29,6 +28,7 @@
     align-items: center;
     font-family: "Abril Fatface";
 }
+
 .Links2{
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -49,3 +49,23 @@
     background-color: #4d664f;
 }
 
+@media screen and (max-width: 768px) {
+    .Links{
+        font-size: 10;
+        width: auto;
+    }
+}
+
+
+.buttonWelcome {
+    background-color: #FAB51A;
+    color: black;
+    border-radius: 1.8vh;
+    width: 6vw;
+    height: 4vh;
+    border: none;
+  }
+  
+  .buttonWelcome:hover {
+    cursor: pointer;
+  }
