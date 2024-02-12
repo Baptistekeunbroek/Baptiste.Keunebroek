@@ -15,8 +15,7 @@
     height: 47vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
-  
+
   }
 
 .container_presentation h1{
@@ -37,6 +36,21 @@
     
 }
 
+.contact_linkedin{
+    background-color: #FA5C30;
+    border: none;
+    border-radius: 2vh;
+    width: 150%;
+    height: 3vh;
+    color: white;
+    margin-top: 5px;
+}
+
+.contact_linkedin:hover{
+    cursor: pointer;
+    background-color: #cc3b13;
+}
+
 .container_presentation h1{
     font-family: "Abril Fatface";
 
@@ -49,9 +63,10 @@
     width: 25%;
     height: 100%;
     position: relative;
-    bottom: 35vh;
-    left: 95vh;
+    bottom: 80%;
+    left: 60%;
     justify-content: space-evenly;
+    z-index: 1;
 }
 
 .experience h1{
@@ -67,6 +82,7 @@
     width: 25%;
     height: 100%;
     color: white;
+    margin-right: 50vw;
 }
 
 .education h1{
@@ -104,4 +120,41 @@
 margin-left: 1vw;
 margin-right: 1vw;
 }
+
+.positionedTextAboutMe{
+    position: absolute;
+  font-size: 8vw; 
+  font-family: "Abril Fatface";
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FAB51A;
+  left: 43.5%;
+  transform: translateX(50%);
+  z-index: 0;
+  top: 40%;
+}
+
+.positionedTextAboutMe:nth-child(2) {
+    top: 52%;
+    z-index: 0;
+    font-family: "Abril Fatface";
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FAB51A;
+    text-shadow: none;
+    left: 43.5%;
+  
+    
+  }
+  
+  .positionedTextAboutMe:nth-child(3) {
+    top: 64%;
+    z-index: 0;
+    font-family: "Abril Fatface";
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FAB51A;
+    text-shadow: none;
+    left: 43.5%;
+  }
 

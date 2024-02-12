@@ -15,6 +15,11 @@ const AboutMe = () => {
             is Software Development. I'm currently living in Norway working for
             a company.
           </p>
+          <a href="https://www.linkedin.com/in/baptiste-keunebroek-95a2ab194/">
+            <button type="button" className="contact_linkedin">
+              linkedin.com/in/baptiste-keunebroek
+            </button>
+          </a>
         </div>
       </div>
       <div className="container_Bottom_about">
@@ -30,9 +35,15 @@ const AboutMe = () => {
 
           <ul className="odlaMer">
             <li>2019-2024 : CS School and Personnal Projects</li>
-            <p>Multiple projects in different languages and frameworks.</p>
+            <p>
+              Multiple projects in different languages and frameworks. See 'My
+              Projects' page.
+            </p>
           </ul>
         </div>
+        <div className="positionedTextAboutMe">Resume</div>
+        <div className="positionedTextAboutMe">Resume</div>
+        <div className="positionedTextAboutMe">Resume</div>
         <div className="education">
           <h1>Education</h1>
           <ul>
