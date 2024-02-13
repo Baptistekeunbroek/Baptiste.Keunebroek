@@ -130,7 +130,7 @@ margin-right: 1vw;
   color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #FAB51A;
-  left: 43.5%;
+  left: 43%;
   transform: translateX(50%);
   z-index: 0;
   top: 40%;
@@ -144,7 +144,7 @@ margin-right: 1vw;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FAB51A;
     text-shadow: none;
-    left: 43.5%;
+    left: 43%;
   
     
   }
@@ -157,6 +157,6 @@ margin-right: 1vw;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #FAB51A;
     text-shadow: none;
-    left: 43.5%;
+    left: 43%;
   }
 

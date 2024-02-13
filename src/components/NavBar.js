@@ -6,31 +6,19 @@ const NavBar = () => {
     <div className="containerNavBar">
       <div className="Main_Container">
         <div className="Links">
-          <NavLink
-            id="link"
-            style={{ textDecoration: "none", color: "white", fontSize: 25 }}
-            to="/"
-          >
+          <NavLink className="Links" to="/">
             Baptiste Keunebroek
           </NavLink>
         </div>
         <div className="Main_elements">
           <div className="Links2">
-            <NavLink
-              id="link"
-              style={{ textDecoration: "none", color: "white", fontSize: 20 }}
-              to="/aboutme"
-            >
+            <NavLink className="Links2" to="/aboutme">
               ABOUT ME
             </NavLink>
           </div>
 
           <div className="Links2">
-            <NavLink
-              id="link"
-              style={{ textDecoration: "none", color: "white", fontSize: 20 }}
-              to="/projects"
-            >
+            <NavLink className="Links2" to="/projects">
               MY PROJECTS
             </NavLink>
           </div>
