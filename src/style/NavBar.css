@@ -16,18 +16,20 @@
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .Links{
    display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     height: 100%;
     width: 30%;
     align-items: center;
     font-family: "Abril Fatface";
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .Links a{
@@ -41,10 +43,9 @@
     margin-right: 2vh;
     margin-left: 2vh;
     height: 100%;
-    align-items: center;
-    justify-content: center;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    align-items: center;
 }
 
 
@@ -67,24 +68,40 @@
     height: 4vh;
     border: none;
     font-family: "Abril Fatface";
-
   }
   
+  a .buttonWelcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+a{
+  text-decoration: none;
+}
+
+
   .buttonWelcome:hover {
     cursor: pointer;
+    text-decoration: none;
   }
   
   @media screen and (max-width: 768px) {
     .Main_Container, .Main_elements {
       flex-direction: row;
     }
-  
-    .Links, .Links2 {
+
+    .Links a {
+      width: 100%;
       font-size: 2vw;
     }
 
-  
-  
+    .Links2 a {
+      width: 100%;
+      font-size: 2vw;
+    }
+    
+
     .buttonWelcome {
       width: 100%;
       margin: 0 auto; 
@@ -94,23 +111,18 @@
     }
   }
 
-
   @media screen and (max-width: 480px) {
-    .Main_Container, .Main_elements {
-      flex-direction: row;
-    }
-  
-    .Links a, .Links2 {
-      width: 50%;
-      margin-bottom: 10px;
-      font-size: 2vw;
-    }
-  
-    .buttonWelcome {
+
+    .Links a {
       width: 100%;
-      margin: 0 auto; 
-      margin-bottom: 10px;
-      font-size: 10px; 
-      padding: 3px; 
+      font-size: 3vw;
     }
+
+    .Links2 a {
+      width: 100%;
+      font-size: 3vw;
+    }
+    
+
+
   }
